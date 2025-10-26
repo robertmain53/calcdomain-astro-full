@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Utah State Income Tax Calculator`;
+const description = `Professional, mobile-first Utah income tax calculator. Estimate Utah state income tax by tax year with flat-rate precision, credits, additions/subtractions, and`;
+const canonical = "/finance/utah-income-tax/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Utah State Income Tax Calculator", "url": "https://calcdomain.com/finance/utah-income-tax/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Professional, mobile-first Utah income tax calculator. Estimate Utah state income tax by tax year with flat-rate precision, credits, additions/subtractions, and"};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/finance/">Finance</a> › <span>Utah State Income Tax Calculator</span></nav>
+<h1>Utah State Income Tax Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Finance</div>
+</div>
+<section><h2>About this calculator</h2><p>Professional, mobile-first Utah income tax calculator. Estimate Utah state income tax by tax year with flat-rate precision, credits, additions/subtractions, and pay-period support.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

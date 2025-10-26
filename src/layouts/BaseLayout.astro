@@ -1,0 +1,12 @@
+---
+const { title='CalcDomain', description='High-quality calculators', canonical='/', jsonLd=null } = Astro.props;
+---
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{title}</title><meta name="description" content={description}>
+<link rel="canonical" href={`https://calcdomain.com${canonical}`}>
+<link rel="stylesheet" href="/assets/css/main.css">
+{jsonLd && <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>}
+</head><body>
+<main class="container"><slot /></main>
+</body></html>

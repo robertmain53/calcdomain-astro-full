@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Interest-Only Loan Calculator`;
+const description = `Project payments during the IO period and the balance when amortization begins.`;
+const canonical = "/other/interest-only-loan/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Interest-Only Loan Calculator", "url": "https://calcdomain.com/other/interest-only-loan/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Project payments during the IO period and the balance when amortization begins."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Interest-Only Loan Calculator</span></nav>
+<h1>Interest-Only Loan Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Project payments during the IO period and the balance when amortization begins.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Mean Arterial Pressure (MAP) Calculator`;
+const description = `Calculate your Mean Arterial Pressure (MAP) with our precise and accessible online calculator designed for health professionals.`;
+const canonical = "/health/map/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Mean Arterial Pressure (MAP) Calculator", "url": "https://calcdomain.com/health/map/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate your Mean Arterial Pressure (MAP) with our precise and accessible online calculator designed for health professionals."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/health/">Health</a> › <span>Mean Arterial Pressure (MAP) Calculator</span></nav>
+<h1>Mean Arterial Pressure (MAP) Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Health</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate your Mean Arterial Pressure (MAP) with our precise and accessible online calculator designed for health professionals.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

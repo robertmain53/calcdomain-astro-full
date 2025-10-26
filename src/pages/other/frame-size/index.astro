@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Frame Size Calculator`;
+const description = `Use our Frame Size Calculator to determine the best bike frame size for your body. Ideal for health and fitness enthusiasts looking to optimize riding comfort.`;
+const canonical = "/other/frame-size/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Frame Size Calculator", "url": "https://calcdomain.com/other/frame-size/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Use our Frame Size Calculator to determine the best bike frame size for your body. Ideal for health and fitness enthusiasts looking to optimize riding comfort."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Frame Size Calculator</span></nav>
+<h1>Frame Size Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Use our Frame Size Calculator to determine the best bike frame size for your body. Ideal for health and fitness enthusiasts looking to optimize riding comfort.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

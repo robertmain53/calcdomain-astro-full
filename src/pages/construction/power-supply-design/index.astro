@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Power Supply Design Calculator`;
+const description = `Expert-level tool for designing power supply systems, assisting electrical engineers with precise calculations.`;
+const canonical = "/construction/power-supply-design/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Power Supply Design Calculator", "url": "https://calcdomain.com/construction/power-supply-design/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Expert-level tool for designing power supply systems, assisting electrical engineers with precise calculations."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/construction/">Construction</a> › <span>Power Supply Design Calculator</span></nav>
+<h1>Power Supply Design Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Construction</div>
+</div>
+<section><h2>About this calculator</h2><p>Expert-level tool for designing power supply systems, assisting electrical engineers with precise calculations.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

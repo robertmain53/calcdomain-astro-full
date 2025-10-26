@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Hawaii State Income Tax Calculator`;
+const description = `Accurately estimate your Hawaii state income tax with our accessible, mobile-first calculator. Supports filing status, taxable income or gross-to-taxable estima`;
+const canonical = "/other/hawaii-income-tax/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Hawaii State Income Tax Calculator", "url": "https://calcdomain.com/other/hawaii-income-tax/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Accurately estimate your Hawaii state income tax with our accessible, mobile-first calculator. Supports filing status, taxable income or gross-to-taxable estima"};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Hawaii State Income Tax Calculator</span></nav>
+<h1>Hawaii State Income Tax Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Accurately estimate your Hawaii state income tax with our accessible, mobile-first calculator. Supports filing status, taxable income or gross-to-taxable estimation, progressive brackets, marginal and effective rates.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

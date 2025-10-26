@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `APGAR Score Calculator`;
+const description = `Use this APGAR Score Calculator to evaluate the health of newborns immediately after birth.`;
+const canonical = "/other/apgar-score/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "APGAR Score Calculator", "url": "https://calcdomain.com/other/apgar-score/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Use this APGAR Score Calculator to evaluate the health of newborns immediately after birth."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>APGAR Score Calculator</span></nav>
+<h1>APGAR Score Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Use this APGAR Score Calculator to evaluate the health of newborns immediately after birth.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

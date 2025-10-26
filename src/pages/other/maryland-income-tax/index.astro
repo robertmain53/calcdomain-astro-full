@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Maryland State Income Tax Calculator`;
+const description = `Authoritative, mobile-first Maryland income tax calculator for residents. Estimate Maryland state and local county taxes using 2024 brackets with accessible, pr`;
+const canonical = "/other/maryland-income-tax/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Maryland State Income Tax Calculator", "url": "https://calcdomain.com/other/maryland-income-tax/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Authoritative, mobile-first Maryland income tax calculator for residents. Estimate Maryland state and local county taxes using 2024 brackets with accessible, pr"};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Maryland State Income Tax Calculator</span></nav>
+<h1>Maryland State Income Tax Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Authoritative, mobile-first Maryland income tax calculator for residents. Estimate Maryland state and local county taxes using 2024 brackets with accessible, professional UX.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

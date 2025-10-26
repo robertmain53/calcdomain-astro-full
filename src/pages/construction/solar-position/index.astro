@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Solar Position Calculator`;
+const description = `Calculate the solar position with precision using our advanced tool. Ideal for scientists and researchers interested in Earth`;
+const canonical = "/construction/solar-position/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Solar Position Calculator", "url": "https://calcdomain.com/construction/solar-position/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate the solar position with precision using our advanced tool. Ideal for scientists and researchers interested in Earth"};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/construction/">Construction</a> › <span>Solar Position Calculator</span></nav>
+<h1>Solar Position Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Construction</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate the solar position with precision using our advanced tool. Ideal for scientists and researchers interested in Earth</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

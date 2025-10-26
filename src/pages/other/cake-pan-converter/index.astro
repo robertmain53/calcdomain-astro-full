@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Cake Pan Converter`;
+const description = `Convert your cake recipes for any size tin or cake pan with our interactive Cake Pan Converter. Ideal for bakers of all levels.`;
+const canonical = "/other/cake-pan-converter/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Cake Pan Converter", "url": "https://calcdomain.com/other/cake-pan-converter/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Convert your cake recipes for any size tin or cake pan with our interactive Cake Pan Converter. Ideal for bakers of all levels."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Cake Pan Converter</span></nav>
+<h1>Cake Pan Converter</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Convert your cake recipes for any size tin or cake pan with our interactive Cake Pan Converter. Ideal for bakers of all levels.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

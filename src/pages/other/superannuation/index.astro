@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Superannuation Calculator (Australia)`;
+const description = `Calculate your superannuation savings in Australia with our interactive tool. Optimize your retirement planning with expert guidance.`;
+const canonical = "/other/superannuation/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Superannuation Calculator (Australia)", "url": "https://calcdomain.com/other/superannuation/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate your superannuation savings in Australia with our interactive tool. Optimize your retirement planning with expert guidance."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Superannuation Calculator (Australia)</span></nav>
+<h1>Superannuation Calculator (Australia)</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate your superannuation savings in Australia with our interactive tool. Optimize your retirement planning with expert guidance.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Anagram Solver`;
+const description = `Advanced Anagram Solver to help you find anagrams for any word or phrase. Perfect for word games and puzzles enthusiasts.`;
+const canonical = "/construction/anagram-solver/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Anagram Solver", "url": "https://calcdomain.com/construction/anagram-solver/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Advanced Anagram Solver to help you find anagrams for any word or phrase. Perfect for word games and puzzles enthusiasts."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/construction/">Construction</a> › <span>Anagram Solver</span></nav>
+<h1>Anagram Solver</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Construction</div>
+</div>
+<section><h2>About this calculator</h2><p>Advanced Anagram Solver to help you find anagrams for any word or phrase. Perfect for word games and puzzles enthusiasts.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

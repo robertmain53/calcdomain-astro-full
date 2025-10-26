@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Concrete Calculator - Estimate Volume, Bags & Cost`;
+const description = `Calculate the volume, number of pre-mix bags, and total cost of concrete needed for slabs, footings, or columns. Includes wastage factor.`;
+const canonical = "/construction/concrete-calculator/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Concrete Calculator - Estimate Volume, Bags & Cost", "url": "https://calcdomain.com/construction/concrete-calculator/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate the volume, number of pre-mix bags, and total cost of concrete needed for slabs, footings, or columns. Includes wastage factor."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/construction/">Construction</a> › <span>Concrete Calculator - Estimate Volume, Bags & Cost</span></nav>
+<h1>Concrete Calculator - Estimate Volume, Bags & Cost</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Construction</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate the volume, number of pre-mix bags, and total cost of concrete needed for slabs, footings, or columns. Includes wastage factor.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

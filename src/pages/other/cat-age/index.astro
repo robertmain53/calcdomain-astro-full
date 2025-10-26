@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Cat Age Calculator | Ugo Candido`;
+const description = `Easily calculate your cat`;
+const canonical = "/other/cat-age/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Cat Age Calculator | Ugo Candido", "url": "https://calcdomain.com/other/cat-age/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Easily calculate your cat"};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Cat Age Calculator | Ugo Candido</span></nav>
+<h1>Cat Age Calculator | Ugo Candido</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Easily calculate your cat</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

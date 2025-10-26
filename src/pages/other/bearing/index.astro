@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Bearing Calculator`;
+const description = `An authoritative and accessible bearing calculator designed to solve trigonometry problems related to bearings.`;
+const canonical = "/other/bearing/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Bearing Calculator", "url": "https://calcdomain.com/other/bearing/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "An authoritative and accessible bearing calculator designed to solve trigonometry problems related to bearings."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Bearing Calculator</span></nav>
+<h1>Bearing Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>An authoritative and accessible bearing calculator designed to solve trigonometry problems related to bearings.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `New Jersey State Income Tax Calculator`;
+const description = `New Jersey income tax calculator for 2024–2025. Estimate NJ state tax by filing status, dependents, and age/blind exemptions. Clear methodology, WCAG-compliant `;
+const canonical = "/finance/new-jersey-income-tax/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "New Jersey State Income Tax Calculator", "url": "https://calcdomain.com/finance/new-jersey-income-tax/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "New Jersey income tax calculator for 2024\u20132025. Estimate NJ state tax by filing status, dependents, and age/blind exemptions. Clear methodology, WCAG-compliant "};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/finance/">Finance</a> › <span>New Jersey State Income Tax Calculator</span></nav>
+<h1>New Jersey State Income Tax Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Finance</div>
+</div>
+<section><h2>About this calculator</h2><p>New Jersey income tax calculator for 2024–2025. Estimate NJ state tax by filing status, dependents, and age/blind exemptions. Clear methodology, WCAG-compliant UI, and per‑paycheck breakdown.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

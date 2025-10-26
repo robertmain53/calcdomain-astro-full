@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Kansas State Income Tax Calculator`;
+const description = `Kansas income tax calculator for 2024. Instantly compute Kansas state tax owed, marginal rate, effective rate, and after-tax income with a transparent bracket b`;
+const canonical = "/other/kansas-income-tax/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Kansas State Income Tax Calculator", "url": "https://calcdomain.com/other/kansas-income-tax/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Kansas income tax calculator for 2024. Instantly compute Kansas state tax owed, marginal rate, effective rate, and after-tax income with a transparent bracket b"};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Kansas State Income Tax Calculator</span></nav>
+<h1>Kansas State Income Tax Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Kansas income tax calculator for 2024. Instantly compute Kansas state tax owed, marginal rate, effective rate, and after-tax income with a transparent bracket breakdown.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

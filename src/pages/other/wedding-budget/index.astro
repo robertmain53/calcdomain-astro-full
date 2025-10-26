@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Wedding Budget Calculator`;
+const description = `Plan your wedding expenses effortlessly with our interactive Wedding Budget Calculator. Keep track of spending and stay within your budget.`;
+const canonical = "/other/wedding-budget/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Wedding Budget Calculator", "url": "https://calcdomain.com/other/wedding-budget/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Plan your wedding expenses effortlessly with our interactive Wedding Budget Calculator. Keep track of spending and stay within your budget."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Wedding Budget Calculator</span></nav>
+<h1>Wedding Budget Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Plan your wedding expenses effortlessly with our interactive Wedding Budget Calculator. Keep track of spending and stay within your budget.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

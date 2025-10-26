@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Air Quality Index (AQI) Calculator`;
+const description = `Calculate the Air Quality Index (AQI) easily with our interactive tool. Understand air pollution levels and their impact on health.`;
+const canonical = "/other/aqi/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Air Quality Index (AQI) Calculator", "url": "https://calcdomain.com/other/aqi/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate the Air Quality Index (AQI) easily with our interactive tool. Understand air pollution levels and their impact on health."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Air Quality Index (AQI) Calculator</span></nav>
+<h1>Air Quality Index (AQI) Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate the Air Quality Index (AQI) easily with our interactive tool. Understand air pollution levels and their impact on health.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

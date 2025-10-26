@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Dog Calorie Calculator`;
+const description = `Calculate the daily calorie and RER/MER needs for your dog based on weight, age, and activity, using veterinary nutrition standards.`;
+const canonical = "/health/dog-calorie/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Dog Calorie Calculator", "url": "https://calcdomain.com/health/dog-calorie/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate the daily calorie and RER/MER needs for your dog based on weight, age, and activity, using veterinary nutrition standards."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/health/">Health</a> › <span>Dog Calorie Calculator</span></nav>
+<h1>Dog Calorie Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Health</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate the daily calorie and RER/MER needs for your dog based on weight, age, and activity, using veterinary nutrition standards.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

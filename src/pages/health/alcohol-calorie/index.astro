@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Alcohol Calorie Calculator`;
+const description = `Calculate the calories in your alcoholic beverages with our precise and user-friendly Alcohol Calorie Calculator. Stay informed about your intake.`;
+const canonical = "/health/alcohol-calorie/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Alcohol Calorie Calculator", "url": "https://calcdomain.com/health/alcohol-calorie/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate the calories in your alcoholic beverages with our precise and user-friendly Alcohol Calorie Calculator. Stay informed about your intake."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/health/">Health</a> › <span>Alcohol Calorie Calculator</span></nav>
+<h1>Alcohol Calorie Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Health</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate the calories in your alcoholic beverages with our precise and user-friendly Alcohol Calorie Calculator. Stay informed about your intake.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

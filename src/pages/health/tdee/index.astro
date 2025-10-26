@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `TDEE (Total Daily Energy Expenditure) Calculator | Health & Fitness Body Metrics`;
+const description = `Professional TDEE calculator using Mifflin–St Jeor or Katch–McArdle (with body fat %) to compute BMR, maintenance calories, goal targets, and macro breakdowns. `;
+const canonical = "/health/tdee/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "TDEE (Total Daily Energy Expenditure) Calculator | Health & Fitness Body Metrics", "url": "https://calcdomain.com/health/tdee/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Professional TDEE calculator using Mifflin\u2013St Jeor or Katch\u2013McArdle (with body fat %) to compute BMR, maintenance calories, goal targets, and macro breakdowns. "};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/health/">Health</a> › <span>TDEE (Total Daily Energy Expenditure) Calculator | Health & Fitness Body Metrics</span></nav>
+<h1>TDEE (Total Daily Energy Expenditure) Calculator | Health & Fitness Body Metrics</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Health</div>
+</div>
+<section><h2>About this calculator</h2><p>Professional TDEE calculator using Mifflin–St Jeor or Katch–McArdle (with body fat %) to compute BMR, maintenance calories, goal targets, and macro breakdowns. Mobile-first, WCAG 2.1 AA accessible.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

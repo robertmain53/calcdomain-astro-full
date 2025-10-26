@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Sequence Calculator — Arithmetic, Geometric, and Linear Recurrence Tools`;
+const description = `Compute n-th term and partial sums for arithmetic and geometric sequences, plus linear recurrences aₙ = p·aₙ₋₁ + q. Mobile-first, accessible, and fast.`;
+const canonical = "/math/sequence-calculator/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Sequence Calculator \u2014 Arithmetic, Geometric, and Linear Recurrence Tools", "url": "https://calcdomain.com/math/sequence-calculator/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Compute n-th term and partial sums for arithmetic and geometric sequences, plus linear recurrences a\u2099 = p\u00b7a\u2099\u208b\u2081 + q. Mobile-first, accessible, and fast."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/math/">Math</a> › <span>Sequence Calculator — Arithmetic, Geometric, and Linear Recurrence Tools</span></nav>
+<h1>Sequence Calculator — Arithmetic, Geometric, and Linear Recurrence Tools</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Math</div>
+</div>
+<section><h2>About this calculator</h2><p>Compute n-th term and partial sums for arithmetic and geometric sequences, plus linear recurrences aₙ = p·aₙ₋₁ + q. Mobile-first, accessible, and fast.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

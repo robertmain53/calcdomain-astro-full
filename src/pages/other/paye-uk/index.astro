@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `UK PAYE Calculator`;
+const description = `Professional-grade PAYE calculator (UK). Estimate Income Tax, National Insurance, Student Loan and take-home pay by year, region (rUK/Scotland), pay frequency, `;
+const canonical = "/other/paye-uk/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "UK PAYE Calculator", "url": "https://calcdomain.com/other/paye-uk/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Professional-grade PAYE calculator (UK). Estimate Income Tax, National Insurance, Student Loan and take-home pay by year, region (rUK/Scotland), pay frequency, "};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>UK PAYE Calculator</span></nav>
+<h1>UK PAYE Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Professional-grade PAYE calculator (UK). Estimate Income Tax, National Insurance, Student Loan and take-home pay by year, region (rUK/Scotland), pay frequency, tax code and pension method.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

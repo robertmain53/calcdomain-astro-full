@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Bodybuilding Macro Calculator`;
+const description = `Calculate your bodybuilding macros with precision. Plan your protein, fat, and carb intake for optimal performance and muscle gain.`;
+const canonical = "/other/bodybuilding-macro/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Bodybuilding Macro Calculator", "url": "https://calcdomain.com/other/bodybuilding-macro/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate your bodybuilding macros with precision. Plan your protein, fat, and carb intake for optimal performance and muscle gain."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Bodybuilding Macro Calculator</span></nav>
+<h1>Bodybuilding Macro Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate your bodybuilding macros with precision. Plan your protein, fat, and carb intake for optimal performance and muscle gain.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

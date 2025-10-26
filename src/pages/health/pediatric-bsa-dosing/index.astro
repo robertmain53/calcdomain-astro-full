@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Pediatric Dosage Calculator (by BSA)`;
+const description = `Calculate pediatric dosages based on Body Surface Area (BSA) with this precise and accessible tool.`;
+const canonical = "/health/pediatric-bsa-dosing/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Pediatric Dosage Calculator (by BSA)", "url": "https://calcdomain.com/health/pediatric-bsa-dosing/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate pediatric dosages based on Body Surface Area (BSA) with this precise and accessible tool."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/health/">Health</a> › <span>Pediatric Dosage Calculator (by BSA)</span></nav>
+<h1>Pediatric Dosage Calculator (by BSA)</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Health</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate pediatric dosages based on Body Surface Area (BSA) with this precise and accessible tool.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `pH Calculator | Science › Chemistry | CalcDomain`;
+const description = `Professional pH calculator for chemistry and water analysis. Compute pH, pOH, [H+], and [OH−] from multiple inputs: direct concentration, strong/weak acids and `;
+const canonical = "/other/ph/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "pH Calculator | Science \u203a Chemistry | CalcDomain", "url": "https://calcdomain.com/other/ph/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Professional pH calculator for chemistry and water analysis. Compute pH, pOH, [H+], and [OH\u2212] from multiple inputs: direct concentration, strong/weak acids and "};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>pH Calculator | Science › Chemistry | CalcDomain</span></nav>
+<h1>pH Calculator | Science › Chemistry | CalcDomain</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Professional pH calculator for chemistry and water analysis. Compute pH, pOH, [H+], and [OH−] from multiple inputs: direct concentration, strong/weak acids and bases, and buffer solutions with temperature-aware pKw.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

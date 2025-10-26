@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `COCOMO Model Calculator`;
+const description = `Accurately estimate software development costs using the COCOMO Model Calculator. A tool for software engineers to project costs efficiently.`;
+const canonical = "/construction/cocomo/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "COCOMO Model Calculator", "url": "https://calcdomain.com/construction/cocomo/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Accurately estimate software development costs using the COCOMO Model Calculator. A tool for software engineers to project costs efficiently."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/construction/">Construction</a> › <span>COCOMO Model Calculator</span></nav>
+<h1>COCOMO Model Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Construction</div>
+</div>
+<section><h2>About this calculator</h2><p>Accurately estimate software development costs using the COCOMO Model Calculator. A tool for software engineers to project costs efficiently.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

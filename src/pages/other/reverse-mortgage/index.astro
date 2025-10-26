@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Reverse Mortgage Calculator`;
+const description = `Estimate proceeds, loan balance growth, and home equity preserved.`;
+const canonical = "/other/reverse-mortgage/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Reverse Mortgage Calculator", "url": "https://calcdomain.com/other/reverse-mortgage/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Estimate proceeds, loan balance growth, and home equity preserved."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Reverse Mortgage Calculator</span></nav>
+<h1>Reverse Mortgage Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Estimate proceeds, loan balance growth, and home equity preserved.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

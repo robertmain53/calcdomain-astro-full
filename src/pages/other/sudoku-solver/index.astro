@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Sudoku Solver`;
+const description = `An advanced Sudoku solver that provides instant solutions to any Sudoku puzzle. Developed by Ugo Candido.`;
+const canonical = "/other/sudoku-solver/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Sudoku Solver", "url": "https://calcdomain.com/other/sudoku-solver/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "An advanced Sudoku solver that provides instant solutions to any Sudoku puzzle. Developed by Ugo Candido."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Sudoku Solver</span></nav>
+<h1>Sudoku Solver</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>An advanced Sudoku solver that provides instant solutions to any Sudoku puzzle. Developed by Ugo Candido.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

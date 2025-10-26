@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Mortgage Calculator | Monthly Payment, Total Interest & Amortization`;
+const description = `Project monthly payments with taxes, insurance, PMI, and amortization tables.`;
+const canonical = "/finance/mortgage/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Mortgage Calculator | Monthly Payment, Total Interest & Amortization", "url": "https://calcdomain.com/finance/mortgage/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Project monthly payments with taxes, insurance, PMI, and amortization tables."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/finance/">Finance</a> › <span>Mortgage Calculator | Monthly Payment, Total Interest & Amortization</span></nav>
+<h1>Mortgage Calculator | Monthly Payment, Total Interest & Amortization</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Finance</div>
+</div>
+<section><h2>About this calculator</h2><p>Project monthly payments with taxes, insurance, PMI, and amortization tables.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

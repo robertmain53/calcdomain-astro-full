@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Child Tax Credit Calculator | US Federal Tax | CalcDomain`;
+const description = `Estimate your U.S. federal Child Tax Credit (CTC) and refundable Additional Child Tax Credit (ACTC) for 2023 or 2024. Includes phaseout by filing status, MAGI, `;
+const canonical = "/finance/child-tax-credit/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Child Tax Credit Calculator | US Federal Tax | CalcDomain", "url": "https://calcdomain.com/finance/child-tax-credit/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Estimate your U.S. federal Child Tax Credit (CTC) and refundable Additional Child Tax Credit (ACTC) for 2023 or 2024. Includes phaseout by filing status, MAGI, "};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/finance/">Finance</a> › <span>Child Tax Credit Calculator | US Federal Tax | CalcDomain</span></nav>
+<h1>Child Tax Credit Calculator | US Federal Tax | CalcDomain</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Finance</div>
+</div>
+<section><h2>About this calculator</h2><p>Estimate your U.S. federal Child Tax Credit (CTC) and refundable Additional Child Tax Credit (ACTC) for 2023 or 2024. Includes phaseout by filing status, MAGI, and earned income—WCAG-accessible, mobile-first, and fast.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

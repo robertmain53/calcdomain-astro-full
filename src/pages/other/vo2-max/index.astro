@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `VO2 Max Calculator | Health and Fitness`;
+const description = `Calculate your VO2 Max with our interactive, accessible, and mobile-friendly calculator. Discover your fitness level.`;
+const canonical = "/other/vo2-max/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "VO2 Max Calculator | Health and Fitness", "url": "https://calcdomain.com/other/vo2-max/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate your VO2 Max with our interactive, accessible, and mobile-friendly calculator. Discover your fitness level."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>VO2 Max Calculator | Health and Fitness</span></nav>
+<h1>VO2 Max Calculator | Health and Fitness</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate your VO2 Max with our interactive, accessible, and mobile-friendly calculator. Discover your fitness level.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `W-4 Withholding Calculator | US Federal Tax Estimator`;
+const description = `Estimate your federal income tax withholding per paycheck and generate ready-to-use W‑4 entries (Steps 3 and 4). Accurate, mobile‑first, and WCAG-compliant.`;
+const canonical = "/other/w4-withholding/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "W-4 Withholding Calculator | US Federal Tax Estimator", "url": "https://calcdomain.com/other/w4-withholding/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Estimate your federal income tax withholding per paycheck and generate ready-to-use W\u20114 entries (Steps 3 and 4). Accurate, mobile\u2011first, and WCAG-compliant."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>W-4 Withholding Calculator | US Federal Tax Estimator</span></nav>
+<h1>W-4 Withholding Calculator | US Federal Tax Estimator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Estimate your federal income tax withholding per paycheck and generate ready-to-use W‑4 entries (Steps 3 and 4). Accurate, mobile‑first, and WCAG-compliant.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

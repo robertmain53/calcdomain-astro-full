@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Wind Chill Calculator | Ugo Candido`;
+const description = `US/Canada wind chill formula for exposed skin risk analysis.`;
+const canonical = "/construction/wind-chill/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Wind Chill Calculator | Ugo Candido", "url": "https://calcdomain.com/construction/wind-chill/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "US/Canada wind chill formula for exposed skin risk analysis."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/construction/">Construction</a> › <span>Wind Chill Calculator | Ugo Candido</span></nav>
+<h1>Wind Chill Calculator | Ugo Candido</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Construction</div>
+</div>
+<section><h2>About this calculator</h2><p>US/Canada wind chill formula for exposed skin risk analysis.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

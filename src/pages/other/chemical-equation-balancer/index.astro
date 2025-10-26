@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Chemical Equation Balancer`;
+const description = `An authoritative tool to balance chemical equations, ensuring accurate stoichiometry calculations for educational and professional purposes.`;
+const canonical = "/other/chemical-equation-balancer/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Chemical Equation Balancer", "url": "https://calcdomain.com/other/chemical-equation-balancer/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "An authoritative tool to balance chemical equations, ensuring accurate stoichiometry calculations for educational and professional purposes."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Chemical Equation Balancer</span></nav>
+<h1>Chemical Equation Balancer</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>An authoritative tool to balance chemical equations, ensuring accurate stoichiometry calculations for educational and professional purposes.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

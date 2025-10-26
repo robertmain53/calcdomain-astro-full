@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `NFL Passer Rating Calculator`;
+const description = `Calculate NFL passer ratings with precision using our interactive and user-friendly calculator. Ideal for football enthusiasts and analysts.`;
+const canonical = "/other/passer-rating/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "NFL Passer Rating Calculator", "url": "https://calcdomain.com/other/passer-rating/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate NFL passer ratings with precision using our interactive and user-friendly calculator. Ideal for football enthusiasts and analysts."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>NFL Passer Rating Calculator</span></nav>
+<h1>NFL Passer Rating Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate NFL passer ratings with precision using our interactive and user-friendly calculator. Ideal for football enthusiasts and analysts.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

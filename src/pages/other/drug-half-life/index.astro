@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Drug Half-Life Calculator`;
+const description = `Calculate the half-life of drugs with precision. This tool helps pharmacists, doctors, and researchers to estimate the time required for a drug`;
+const canonical = "/other/drug-half-life/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Drug Half-Life Calculator", "url": "https://calcdomain.com/other/drug-half-life/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate the half-life of drugs with precision. This tool helps pharmacists, doctors, and researchers to estimate the time required for a drug"};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Drug Half-Life Calculator</span></nav>
+<h1>Drug Half-Life Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate the half-life of drugs with precision. This tool helps pharmacists, doctors, and researchers to estimate the time required for a drug</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

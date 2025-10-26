@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `VA Loan Calculator | Finance › Mortgages`;
+const description = `VA loan calculator for veterans and service members. Estimates funding fee, P&I, escrows and total monthly payment for Purchase/Build, Cash-Out and IRRRL scenar`;
+const canonical = "/finance/va-loan/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "VA Loan Calculator | Finance \u203a Mortgages", "url": "https://calcdomain.com/finance/va-loan/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "VA loan calculator for veterans and service members. Estimates funding fee, P&I, escrows and total monthly payment for Purchase/Build, Cash-Out and IRRRL scenar"};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/finance/">Finance</a> › <span>VA Loan Calculator | Finance › Mortgages</span></nav>
+<h1>VA Loan Calculator | Finance › Mortgages</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Finance</div>
+</div>
+<section><h2>About this calculator</h2><p>VA loan calculator for veterans and service members. Estimates funding fee, P&I, escrows and total monthly payment for Purchase/Build, Cash-Out and IRRRL scenarios. WCAG 2.1 AA.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

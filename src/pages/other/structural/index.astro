@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Structural Engineering Calculators | CalcDomain`;
+const description = `Structural engineering calculators for loads & combinations (ASCE 7-22), reinforced concrete (ACI 318), steel (AISC), wood (AWC NDS), masonry, member analysis, `;
+const canonical = "/other/structural/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Structural Engineering Calculators | CalcDomain", "url": "https://calcdomain.com/other/structural/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Structural engineering calculators for loads & combinations (ASCE 7-22), reinforced concrete (ACI 318), steel (AISC), wood (AWC NDS), masonry, member analysis, "};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Structural Engineering Calculators | CalcDomain</span></nav>
+<h1>Structural Engineering Calculators | CalcDomain</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Structural engineering calculators for loads & combinations (ASCE 7-22), reinforced concrete (ACI 318), steel (AISC), wood (AWC NDS), masonry, member analysis, and Eurocodes (EC2/3/4/5/6/8). Transparent formulas, instant results.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

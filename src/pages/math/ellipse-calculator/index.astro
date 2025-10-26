@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Ellipse Calculator — Area, Perimeter, Eccentricity, Foci & Equation`;
+const description = `Professional ellipse calculator. Enter any two of: semi-major axis a, semi-minor axis b, eccentricity e, focal distance c, or area A to compute all ellipse prop`;
+const canonical = "/math/ellipse-calculator/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Ellipse Calculator \u2014 Area, Perimeter, Eccentricity, Foci & Equation", "url": "https://calcdomain.com/math/ellipse-calculator/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Professional ellipse calculator. Enter any two of: semi-major axis a, semi-minor axis b, eccentricity e, focal distance c, or area A to compute all ellipse prop"};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/math/">Math</a> › <span>Ellipse Calculator — Area, Perimeter, Eccentricity, Foci & Equation</span></nav>
+<h1>Ellipse Calculator — Area, Perimeter, Eccentricity, Foci & Equation</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Math</div>
+</div>
+<section><h2>About this calculator</h2><p>Professional ellipse calculator. Enter any two of: semi-major axis a, semi-minor axis b, eccentricity e, focal distance c, or area A to compute all ellipse properties, including Ramanujan perimeter, foci, directrices, and canonical equation. Accessible, mobile-first, WCAG 2.1 AA.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Calorie Calculator | Health and Fitness — Nutrition`;
+const description = `Professional-grade calorie calculator to estimate BMR, TDEE, BMI and personalized targets using Mifflin–St Jeor, Katch–McArdle, and Harris–Benedict equations. A`;
+const canonical = "/health/calorie/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Calorie Calculator | Health and Fitness \u2014 Nutrition", "url": "https://calcdomain.com/health/calorie/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Professional-grade calorie calculator to estimate BMR, TDEE, BMI and personalized targets using Mifflin\u2013St Jeor, Katch\u2013McArdle, and Harris\u2013Benedict equations. A"};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/health/">Health</a> › <span>Calorie Calculator | Health and Fitness — Nutrition</span></nav>
+<h1>Calorie Calculator | Health and Fitness — Nutrition</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Health</div>
+</div>
+<section><h2>About this calculator</h2><p>Professional-grade calorie calculator to estimate BMR, TDEE, BMI and personalized targets using Mifflin–St Jeor, Katch–McArdle, and Harris–Benedict equations. Accessible, fast, and mobile-first.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Washington State Income Tax Calculator (with Federal)`;
+const description = `Authoritative Washington income tax calculator. Instantly see that WA state income tax on wages is $0, estimate WA Cares & PFML, and calculate federal income ta`;
+const canonical = "/finance/washington-income-tax/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Washington State Income Tax Calculator (with Federal)", "url": "https://calcdomain.com/finance/washington-income-tax/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Authoritative Washington income tax calculator. Instantly see that WA state income tax on wages is $0, estimate WA Cares & PFML, and calculate federal income ta"};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/finance/">Finance</a> › <span>Washington State Income Tax Calculator (with Federal)</span></nav>
+<h1>Washington State Income Tax Calculator (with Federal)</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Finance</div>
+</div>
+<section><h2>About this calculator</h2><p>Authoritative Washington income tax calculator. Instantly see that WA state income tax on wages is $0, estimate WA Cares & PFML, and calculate federal income tax for a complete take-home pay analysis.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

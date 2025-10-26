@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Privacy Policy - CalcDomain | Your Data Protection Rights`;
+const description = `CalcDomain Privacy Policy. Learn how we protect your data, what information we collect, and your rights under GDPR and privacy laws.`;
+const canonical = "/other/privacy/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Privacy Policy - CalcDomain | Your Data Protection Rights", "url": "https://calcdomain.com/other/privacy/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "CalcDomain Privacy Policy. Learn how we protect your data, what information we collect, and your rights under GDPR and privacy laws."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Privacy Policy - CalcDomain | Your Data Protection Rights</span></nav>
+<h1>Privacy Policy - CalcDomain | Your Data Protection Rights</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>CalcDomain Privacy Policy. Learn how we protect your data, what information we collect, and your rights under GDPR and privacy laws.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

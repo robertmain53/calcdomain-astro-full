@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Sales Tax Calculator (by State/Province)`;
+const description = `Calculate sales tax for any amount based on U.S. state or Canadian province rates with our authoritative, easy-to-use tool.`;
+const canonical = "/other/sales-tax/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Sales Tax Calculator (by State/Province)", "url": "https://calcdomain.com/other/sales-tax/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate sales tax for any amount based on U.S. state or Canadian province rates with our authoritative, easy-to-use tool."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Sales Tax Calculator (by State/Province)</span></nav>
+<h1>Sales Tax Calculator (by State/Province)</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate sales tax for any amount based on U.S. state or Canadian province rates with our authoritative, easy-to-use tool.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

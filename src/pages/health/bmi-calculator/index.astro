@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `BMI Calculator | Health & Fitness · Health Metrics`;
+const description = `BMI Calculator Calculate your Body Mass Index and health status.`;
+const canonical = "/health/bmi-calculator/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "BMI Calculator | Health & Fitness \u00b7 Health Metrics", "url": "https://calcdomain.com/health/bmi-calculator/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "BMI Calculator Calculate your Body Mass Index and health status."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/health/">Health</a> › <span>BMI Calculator | Health & Fitness · Health Metrics</span></nav>
+<h1>BMI Calculator | Health & Fitness · Health Metrics</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Health</div>
+</div>
+<section><h2>About this calculator</h2><p>BMI Calculator Calculate your Body Mass Index and health status.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

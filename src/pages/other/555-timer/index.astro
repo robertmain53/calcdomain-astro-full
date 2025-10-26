@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `555 Timer Calculator`;
+const description = `Calculate the timing intervals of a 555 Timer, in astable mode with this professional-grade tool. Perfect for electronics engineers and hobbyists.`;
+const canonical = "/other/555-timer/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "555 Timer Calculator", "url": "https://calcdomain.com/other/555-timer/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate the timing intervals of a 555 Timer, in astable mode with this professional-grade tool. Perfect for electronics engineers and hobbyists."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>555 Timer Calculator</span></nav>
+<h1>555 Timer Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate the timing intervals of a 555 Timer, in astable mode with this professional-grade tool. Perfect for electronics engineers and hobbyists.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

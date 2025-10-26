@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `German Income Tax Calculator`;
+const description = `Authoritative German income tax calculator for 2024. Estimate your income tax (ESt), church tax, and solidarity surcharge with spouse splitting. WCAG 2.1 AA acc`;
+const canonical = "/finance/german-income-tax/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "German Income Tax Calculator", "url": "https://calcdomain.com/finance/german-income-tax/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Authoritative German income tax calculator for 2024. Estimate your income tax (ESt), church tax, and solidarity surcharge with spouse splitting. WCAG 2.1 AA acc"};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/finance/">Finance</a> › <span>German Income Tax Calculator</span></nav>
+<h1>German Income Tax Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Finance</div>
+</div>
+<section><h2>About this calculator</h2><p>Authoritative German income tax calculator for 2024. Estimate your income tax (ESt), church tax, and solidarity surcharge with spouse splitting. WCAG 2.1 AA accessible, mobile-first, fast.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

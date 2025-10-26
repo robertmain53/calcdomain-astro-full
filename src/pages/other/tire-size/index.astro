@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Tire Size Calculator`;
+const description = `Calculate the dimensions of your tire with our authoritative Tire Size Calculator. Determine the best fit for your vehicle with precision.`;
+const canonical = "/other/tire-size/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Tire Size Calculator", "url": "https://calcdomain.com/other/tire-size/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate the dimensions of your tire with our authoritative Tire Size Calculator. Determine the best fit for your vehicle with precision."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Tire Size Calculator</span></nav>
+<h1>Tire Size Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate the dimensions of your tire with our authoritative Tire Size Calculator. Determine the best fit for your vehicle with precision.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

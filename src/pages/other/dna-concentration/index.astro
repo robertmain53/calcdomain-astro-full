@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `DNA Concentration Calculator | CalcDomain`;
+const description = `Normalize A260 readings to ng/µL, nM, and copies per µL with purity ratios.`;
+const canonical = "/other/dna-concentration/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "DNA Concentration Calculator | CalcDomain", "url": "https://calcdomain.com/other/dna-concentration/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Normalize A260 readings to ng/\u00b5L, nM, and copies per \u00b5L with purity ratios."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>DNA Concentration Calculator | CalcDomain</span></nav>
+<h1>DNA Concentration Calculator | CalcDomain</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Normalize A260 readings to ng/µL, nM, and copies per µL with purity ratios.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

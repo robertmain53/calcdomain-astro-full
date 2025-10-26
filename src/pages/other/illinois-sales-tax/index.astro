@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Illinois Local Sales Tax Calculator`;
+const description = `Calculate local sales tax for Illinois with our interactive and authoritative tool, ensuring compliance and ease of use.`;
+const canonical = "/other/illinois-sales-tax/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Illinois Local Sales Tax Calculator", "url": "https://calcdomain.com/other/illinois-sales-tax/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate local sales tax for Illinois with our interactive and authoritative tool, ensuring compliance and ease of use."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Illinois Local Sales Tax Calculator</span></nav>
+<h1>Illinois Local Sales Tax Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate local sales tax for Illinois with our interactive and authoritative tool, ensuring compliance and ease of use.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

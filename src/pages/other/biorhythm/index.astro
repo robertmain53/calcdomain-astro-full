@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Biorhythm Calculator | Everyday Life`;
+const description = `Calculate your biorhythms with our intuitive and accessible tool. Discover your physical, emotional, and intellectual cycles today.`;
+const canonical = "/other/biorhythm/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Biorhythm Calculator | Everyday Life", "url": "https://calcdomain.com/other/biorhythm/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate your biorhythms with our intuitive and accessible tool. Discover your physical, emotional, and intellectual cycles today."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>Biorhythm Calculator | Everyday Life</span></nav>
+<h1>Biorhythm Calculator | Everyday Life</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate your biorhythms with our intuitive and accessible tool. Discover your physical, emotional, and intellectual cycles today.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

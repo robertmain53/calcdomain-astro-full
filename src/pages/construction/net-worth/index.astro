@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `Net Worth Calculator`;
+const description = `Calculate your net worth with our advanced personal finance calculator. Input your assets and liabilities to determine your financial standing instantly.`;
+const canonical = "/construction/net-worth/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Net Worth Calculator", "url": "https://calcdomain.com/construction/net-worth/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate your net worth with our advanced personal finance calculator. Input your assets and liabilities to determine your financial standing instantly."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/construction/">Construction</a> › <span>Net Worth Calculator</span></nav>
+<h1>Net Worth Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Construction</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate your net worth with our advanced personal finance calculator. Input your assets and liabilities to determine your financial standing instantly.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>

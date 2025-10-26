@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/BaseLayout.astro';
+const title = `French Pension Calculator`;
+const description = `Calculate your French pension easily with our interactive tool. Understand how much pension you can receive based on your contributions and years of service.`;
+const canonical = "/other/french-pension/";
+const jsonLd = {"@context": "https://schema.org", "@type": "WebApplication", "name": "French Pension Calculator", "url": "https://calcdomain.com/other/french-pension/", "applicationCategory": "Calculator", "operatingSystem": "All", "description": "Calculate your French pension easily with our interactive tool. Understand how much pension you can receive based on your contributions and years of service."};
+---
+<Base {title} {description} {canonical} jsonLd={jsonLd}>
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/other/">Other</a> › <span>French Pension Calculator</span></nav>
+<h1>French Pension Calculator</h1>
+<div class="eeat">
+  <div class="item"><strong>Author</strong><br>CalcDomain Editorial</div>
+  <div class="item"><strong>Reviewed</strong><br>Expert-verified</div>
+  <div class="item"><strong>Last updated</strong><br>2025-10-26</div>
+  <div class="item"><strong>Category</strong><br>Other</div>
+</div>
+<section><h2>About this calculator</h2><p>Calculate your French pension easily with our interactive tool. Understand how much pension you can receive based on your contributions and years of service.</p></section>
+<section><h2>How it works</h2><p>Inputs, formulas, and outputs will be implemented here. All calculations run fully client-side.</p></section>
+</Base>
